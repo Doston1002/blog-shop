@@ -1,3 +1,4 @@
+
 'use client';
 
 import { ProductType } from '@/interfaces';
