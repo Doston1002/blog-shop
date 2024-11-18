@@ -1,3 +1,4 @@
+
 'use client';
 
 
@@ -244,7 +245,7 @@ const ShoppingCart = () => {
 							Shopping cart is empty
 						</h1>
 						<p className='text-slate-600 mt-5 lg:text-lg'>
-							The page you are looking for doesnt exist or <br />
+							The page you are looking for doesn't exist or <br />
 							has been removed.
 						</p>
 						<Link href={'/products'}>
