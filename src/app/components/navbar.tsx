@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -25,12 +26,11 @@ const Navbar = () => {
 						All products
 					</Link>
 				</nav>
-				<button className='button bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black'>
-					Log in
-				</button>
-				<button className='button bg-transparent border-blue-600 hover:border-transparent hover:bg-blue-600 hover:text-white'>
-					Sign up
-				</button>
+				<Link href={'/shopping-cart'}>
+					<button className='button bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black'>
+						My bag
+					</button>
+				</Link>
 			</div>
 		</header>
 	);
